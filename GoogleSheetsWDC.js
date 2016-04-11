@@ -8,7 +8,7 @@ $(document).ready(
 //the redirect url
 function gscGetOAuthAppId()
 {
-    var clientID = "680372083853-h2fg28273t5o6kele90lh38ocis828n9.apps.googleusercontent.com";
+    var clientID = "680372083853-iu9n61b95sj9ppja854osqkteot0s0t7.apps.googleusercontent.com";
     return clientID; 
 }
 
