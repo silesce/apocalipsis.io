@@ -15,7 +15,7 @@ function gscGetOAuthAppId()
 //Expected redirect url for OAuth connections, this value is where the local HTTP server should be hosted at
 //for the OAuth redirect, otherwise the OAuth connection will fail. To change this value please create your
 //own OAuth App ID that uses a different base URL to host the connector.
-var EXPECTED_REDIRECT_URL = "http://tableau.github.io/webdataconnector/Examples/GoogleSheetsConnector.html";
+var EXPECTED_REDIRECT_URL = "http://apocalipsis.io/GoogleSheetsConnector.html";
 
 var MIN_SECONDS_REMAINING_FOR_ACCESS_TOKEN = 60;
 
