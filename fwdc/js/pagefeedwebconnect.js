@@ -1,7 +1,7 @@
 
-        var APP_ID = '274690019535368'; //Facebook APP ID
+        var APP_ID = 'APP_ID'; //Facebook APP ID
         var LIMIT = 250; //Number of records to bring back at any time
-        var BASEURL = 'http://silesce.github.io/fwdc' //base url of virtual directory
+        var BASEURL = 'your_data_virtual_contenedor' //base url of virtual directory
 
         window.fbAsyncInit = function() {
             FB.init({
