@@ -1,6 +1,6 @@
 var config = {
     clientId: '746242678989-c41d2u915r29keud93bjej9gr1h0ssat.apps.googleusercontent.com',
-    redirectUri: 'http://localhost:8888/youtube.html',
+    redirectUri: 'http://silesce.github.io/YouTube/youtube.html',
     scopes: ['https://www.googleapis.com/auth/yt-analytics.readonly','https://www.googleapis.com/auth/youtube.readonly']
 };
 
