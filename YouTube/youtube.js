@@ -128,8 +128,8 @@ myConnector.init = function() {
 
 
 myConnector.getColumnHeaders = function() {
-    fieldNames = ["Video ID","Channel ID","Views","Likes","Dislikes","Comments","Shares","Estimated Minutes Watched","Avg View Duration (s)"];
-    var fieldTypes = ["string","string","int","int","int","int","int","int","int"];
+    fieldNames = ["Video ID","Channel ID","month","insightTrafficSourceType","Views","Likes","Dislikes","Comments","Shares","Estimated Minutes Watched","Avg View Duration (s)", "subscribersGained"];
+    var fieldTypes = ["string","string","string","string","int","int","int","int","int","int","int","int"];
     tableau.headersCallback(fieldNames, fieldTypes);
 };
 
